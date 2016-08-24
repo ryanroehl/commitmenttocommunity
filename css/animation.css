@@ -1,0 +1,18 @@
+.hand       {  
+        transition: -webkit-transform .25s;
+        transform-origin: 1% 1%;
+}
+
+svg#all:hover .hand  {    
+        transform: rotate(-5deg);
+}
+    
+
+#mask       {  
+        transition: -webkit-transform .25s;
+}
+
+svg#all:hover #mask  {    
+        transform: translate(-2.4px, 3.2px);
+}
+
